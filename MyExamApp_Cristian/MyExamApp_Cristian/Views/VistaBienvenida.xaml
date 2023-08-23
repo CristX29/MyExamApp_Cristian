@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyExamApp_Cristian.Views.VistaBienvenida">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="50, 25, 50, 25">
+
+            <Button x:Name="BtnLogin" Text="BIENVENIDA" Background="Green" CornerRadius="15" Clicked="BtnLogin_Clicked" />
+            <Button x:Name="BtnPregunta" Text="PREGUNTA" Background="Green" CornerRadius="15" Clicked="BtnPregunta_Clicked" />
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
